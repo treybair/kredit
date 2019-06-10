@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(253, 253, 253);
+}
+
+.greenbackground {
+    top: 0vw;
+    left: 0vw;
+    right: 0vw;
+    height: 30vw;
+    background-color: rgb(3, 36, 0);
+}
+
+.overview {
+    top: 15vw;
+    left: 5vw;
+    right: 30vw;
+    color: white;
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+.textbox {
+    top: 30vw;
+    left: 10vw;
+    right: 10vw;
+    height: 70vw;
+}
+
+.innerbox {
+    margin: 3vw;
+    color: rgb(150, 150, 150);
+    font-size: 1.6vw;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    top: 153vw;
+    left: 0vw;
+    right: 0vw;
+    height: 20vw;
+}
+
+.footer2 {
+    background-color: rgb(255, 255, 255);
+    top: 140vw;
+    left: 0vw;
+    right: 0vw;
+    height: 20vw;
+}
+
+.greenfooter {
+    top: 0vw;
+    right: 0vw;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(247, 247, 247);
+}
+
+.whitefooter {
+    top: 0vw;
+    left: 0vw;
+    height: 100%;
+    width: 60%
+}
+
+.footerwords {
+    left: 10vw;
+    top: 3vw;
+    font-size: 1.5vw;
+}
+
+.darkgreen {
+    color: rgb(3, 36, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.middlegreen {
+    color: rgb(9, 94, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lightgreen {
+    color: rgb(15, 141, 4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lightergreen {
+    color: rgb(20, 196, 4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+.popup {
+    height: 36vw;
+    left: 3vw;
+    right: 3vw;
+    top: 43vw;
+    background-color: white;
+    border: .20vw;
+    border-color: rgb(177,177,177);
+    border-style: solid;
+}

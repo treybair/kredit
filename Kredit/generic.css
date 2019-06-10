@@ -1,0 +1,279 @@
+
+/* Header */
+
+.wrap {
+    top: 0vw;
+    left: 0vw;
+    right: 0vw;
+    height: 5vw;
+}
+
+.header {
+    right: 3vw;
+    top: 3vw;
+    font-size: 1.35vw;
+    position: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    z-index: 15;
+}
+
+.heading {
+    right: 3vw;
+    top: 2.5vw;
+    font-size: 1.35vw;
+}
+
+.logobackground {
+    left: 10vw;
+    top: -1.3vw;
+    height: 3vw;
+}
+
+img.logo {
+    width: 9vw;
+    height: auto;
+    z-index: 20;
+}
+
+/* Links */
+
+a.class1{
+    text-decoration: none;
+    color: white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 2vw;
+}
+
+a.class1:hover{
+    color: rgb(218, 218, 218);
+}
+
+a.class2 {
+    text-decoration: none;
+    color: rgb(177,177,177);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 2vw;
+}   
+
+a.class2:hover {
+    color: rgb(150, 150, 150);
+}
+
+a.class3 {
+    text-decoration: none;
+    color: rgb(7,53,1);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 2vw;
+}
+
+a.class3:hover {
+    color: rgb(11, 87, 1);
+    text-decoration: underline;
+}
+
+a.class4 {
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 2vw;
+}
+
+a.class4:hover {
+    color: rgb(90, 90, 90)
+}
+
+/* Footer */
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    top: 117.75vw;
+    left: 0vw;
+    right: 0vw;
+    height: 20vw;
+}
+
+.footer2 {
+    background-color: rgb(255, 255, 255);
+    top: 130vw;
+    left: 0vw;
+    right: 0vw;
+    height: 20vw;
+}
+
+.greenfooter {
+    top: 0vw;
+    right: 0vw;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(247, 247, 247);
+}
+
+.whitefooter {
+    top: 0vw;
+    left: 0vw;
+    height: 100%;
+    width: 60%
+}
+
+.footerwords {
+    left: 10vw;
+    top: 3vw;
+    font-size: 1.5vw;
+}
+
+/* Colors */
+
+.white {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.green {
+    color: rgb(7, 53, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.silver {
+    color: rgb(177, 177, 177);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.black {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grey {
+    color: rgb(150, 150, 150);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Font Size */
+
+.fontsize1 {
+    font-size: 1.5vw;
+}
+
+.fontsize2 {
+    font-size: 2vw;
+}
+
+.fontsize3 {
+    font-size: 1.6vw;
+}
+
+.fontsize4 {
+    font-size: 3.5vw;
+}
+
+.fontsize5 {
+    font-size: 1.75vw;
+}
+
+.fontsize6 {
+    font-size: 1.4vw;
+}
+
+
+
+/* General */
+
+.common{
+    position: absolute;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+img.class1 {
+    left: 0vw;
+    top: 10vw;
+    width: 25%;
+    height: auto;
+}
+
+.background { 
+    top: 0vw;
+    left: 0vw;
+    right: 0vw;
+    height: 52vw;
+    filter: brightness(75%)
+}
+
+.font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+button.class1 {
+    left: 10vw;
+    right: 10vw;
+    padding: 1.75vw 4vw;
+    justify-content: center;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(10, 80, 1);
+    color: white;
+    border: none;
+}
+
+button.class1:hover {
+    content: '';
+    background-color: rgb(7, 53, 1)
+}
+
+.center {
+    left: 20vw;
+    right: 20vw;
+    top: 50vw;
+}
+
+.popup {
+    height: 50vw;
+    left: 10vw;
+    right: 10vw;
+    top: 7vw;
+    background-color: white;
+    border: .20vw;
+    border-color: rgb(177,177,177);
+    border-style: solid;
+    padding: 2vw;
+}
+
+button.exit {
+    top: -.20vw;
+    right: -.2vw;
+    background-color: rgb(177, 177, 177);
+    padding: .5vw;
+    font-size: 1.25vw;
+    color: white;
+    border: none;
+    font-weight: bold;
+    height: 2.3vw;
+    width: 2.3vw;
+}
+
+button.exit:hover {
+    content: '';
+    background-color: rgb(150, 150, 150);
+}

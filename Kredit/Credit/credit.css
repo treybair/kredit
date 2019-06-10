@@ -1,0 +1,66 @@
+.image  {
+    filter: brightness(85%);
+}
+
+.quote {
+    top: 40vw;
+    left: 10vw;
+    right: 15vw;
+}
+
+.background {
+    top: 0vw;
+    left: 0vw;
+    right: 0vw;
+    height: 40vw;
+    filter: brightness(90%)
+}
+
+.ribbon {
+    left: 0vw;
+    width: 100%;
+    top: 29vw;
+    background-color: rgba(255, 255, 255, 0.616);
+    height: 10vw;
+    text-align: center;
+}
+
+.title {
+    top: 0vw;
+    left: 7vw;
+    right: 7vw;
+    height: 3vw;
+    text-align: center;
+}
+
+.overview {
+    top: 45vw;
+    left: 0vw;
+    right: 0vw;
+    height: 18vw;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
+
+.section {
+    top: 66vw;
+    left: 53vw;
+    right: 7vw;
+    height: 30vw;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    top: 115vw;
+    left: 0vw;
+    right: 0vw;
+    height: 20vw;
+}
+
+.floatimage {
+    top: 70vw;
+    left: 5vw;
+    right: 50vw;
+    filter: brightness(125%)
+}
